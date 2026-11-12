@@ -1,0 +1,24 @@
+ZiAn AI Ventures – Safe Cleanup Report
+
+Removed from this CLEAN COPY only:
+- node_modules/ (reinstall with npm install)
+- .next/ (generated Next.js build/cache output)
+- .vercel/ (local deployment metadata; reconnect with Vercel CLI if needed)
+- .git/ (Git history omitted from this portable ZIP; original project ZIP remains unchanged)
+- .env.local (excluded for credential safety; recreate locally using .env.example)
+- tsconfig.tsbuildinfo (generated TypeScript cache)
+- cloudflared.exe (standalone local tunnel executable; not required for normal Next.js website build)
+
+Preserved:
+- src/, public/, scripts/, logos/, supabase/
+- package.json and package-lock.json
+- Next.js, Tailwind and TypeScript configuration
+- all website source files and public assets
+- .env.example
+
+Important:
+- This is a cleaned COPY. The original uploaded ZIP and your original local project were not modified.
+- To restore dependencies, run: npm install
+- Recreate .env.local from .env.example and add your own private environment values.
+- Git history is not included in this portable ZIP. Keep your original project/repository if you need commit history.
+- No source components, routes, blog content or public images were deleted.
